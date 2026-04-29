@@ -25,6 +25,8 @@
     <Folder><name>Day 3</name>
       <Placemark><name>函館站前店</name><Point><coordinates>140.725847,41.770603,0</coordinates></Point></Placemark>
       <Placemark><name>大沼國定公園</name><Point><coordinates>140.671,42.0121,0</coordinates></Point></Placemark>
+      <Placemark><name>沼の家</name><Point><coordinates>140.6695,41.9816,0</coordinates></Point></Placemark>
+      <Placemark><name>活裂燒烏賊</name><Point><coordinates>140.6704,41.9824,0</coordinates></Point></Placemark>
       <Placemark><name>洞爺觀光飯店</name><Point><coordinates>140.8216,42.5498,0</coordinates></Point></Placemark>
       <Placemark><name>昭和新山</name><Point><coordinates>140.8644,42.5425,0</coordinates></Point></Placemark>
       <Placemark><name>有珠山纜車</name><Point><coordinates>140.8594,42.5405,0</coordinates></Point></Placemark>
