@@ -1,95 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>Hokkaido Trip 2026 (Optimized)</name>
-    <Style id="route_style">
-      <LineStyle>
-        <color>ff0000ff</color>
-        <width>4</width>
-      </LineStyle>
-    </Style>
-
-    <!-- Day 1 -->
-    <Folder>
-      <name>Day 1: 5/21 Arrival</name>
-      <Placemark><name>函館機場 (HKD)</name><Point><coordinates>140.8222,41.7700</coordinates></Point></Placemark>
-      <Placemark><name>La'gent Stay 函館站前</name><Point><coordinates>140.7275,41.7735</coordinates></Point></Placemark>
-      <Placemark><name>八幡坂</name><Point><coordinates>140.7118,41.7645</coordinates></Point></Placemark>
-      <Placemark><name>金森紅磚倉庫</name><Point><coordinates>140.7167,41.7661</coordinates></Point></Placemark>
-      <Placemark><name>函館山纜車</name><Point><coordinates>140.7144,41.7611</coordinates></Point></Placemark>
-      <Placemark>
-        <name>Day 1 Route</name>
-        <styleUrl>#route_style</styleUrl>
-        <LineString><coordinates>140.8222,41.7700 140.7275,41.7735 140.7118,41.7645 140.7167,41.7661 140.7144,41.7611 140.7275,41.7735</coordinates></LineString>
-      </Placemark>
+    <Folder><name>Day 1</name>
+      <Placemark><name>函館機場</name><Point><coordinates>140.8219,41.77,0</coordinates></Point></Placemark>
+      <Placemark><name>函館車站</name><Point><coordinates>140.7262,41.7738,0</coordinates></Point></Placemark>
+      <Placemark><name>La'gent Stay Hakodate Ekimae</name><Point><coordinates>140.7271,41.7731,0</coordinates></Point></Placemark>
+      <Placemark><name>八幡坂</name><Point><coordinates>140.7115,41.7645,0</coordinates></Point></Placemark>
+      <Placemark><name>舊函館區公會堂</name><Point><coordinates>140.7089,41.765,0</coordinates></Point></Placemark>
+      <Placemark><name>元町教會群</name><Point><coordinates>140.7101,41.7635,0</coordinates></Point></Placemark>
+      <Placemark><name>金森紅磚倉庫</name><Point><coordinates>140.7175,41.7661,0</coordinates></Point></Placemark>
+      <Placemark><name>函館山纜車站 (山麓站)</name><Point><coordinates>140.7046,41.7595,0</coordinates></Point></Placemark>
+      <Placemark><name>函館山夜景</name><Point><coordinates>140.7044,41.7589,0</coordinates></Point></Placemark>
+      <Placemark><name>大門橫丁</name><Point><coordinates>140.7305,41.7715,0</coordinates></Point></Placemark>
     </Folder>
-
-    <!-- Day 2 -->
-    <Folder>
-      <name>Day 2: 5/22 Hakodate</name>
-      <Placemark><name>函館朝市</name><Point><coordinates>140.7253,41.7722</coordinates></Point></Placemark>
-      <Placemark><name>五稜郭塔</name><Point><coordinates>140.7541,41.7946</coordinates></Point></Placemark>
-      <Placemark><name>函館熱帶植物園</name><Point><coordinates>140.7889,41.7764</coordinates></Point></Placemark>
-      <Placemark><name>湯倉神社</name><Point><coordinates>140.7917,41.7833</coordinates></Point></Placemark>
-      <Placemark><name>大門橫丁</name><Point><coordinates>140.7280,41.7715</coordinates></Point></Placemark>
-      <Placemark>
-        <name>Day 2 Route</name>
-        <styleUrl>#route_style</styleUrl>
-        <LineString><coordinates>140.7275,41.7735 140.7253,41.7722 140.7541,41.7946 140.7889,41.7764 140.7917,41.7833 140.7280,41.7715 140.7275,41.7735</coordinates></LineString>
-      </Placemark>
+    <Folder><name>Day 2</name>
+      <Placemark><name>函館朝市</name><Point><coordinates>140.7264,41.7728,0</coordinates></Point></Placemark>
+      <Placemark><name>五稜郭公園</name><Point><coordinates>140.7567,41.7969,0</coordinates></Point></Placemark>
+      <Placemark><name>五稜郭塔</name><Point><coordinates>140.7539,41.7946,0</coordinates></Point></Placemark>
+      <Placemark><name>函館市熱帶植物園</name><Point><coordinates>140.7894,41.774,0</coordinates></Point></Placemark>
+      <Placemark><name>湯倉神社</name><Point><coordinates>140.791,41.7821,0</coordinates></Point></Placemark>
+      <Placemark><name>湯之川足湯</name><Point><coordinates>140.7875,41.7785,0</coordinates></Point></Placemark>
+      <Placemark><name>大門橫丁</name><Point><coordinates>140.7305,41.7715,0</coordinates></Point></Placemark>
     </Folder>
-
-    <!-- Day 3 -->
-    <Folder>
-      <name>Day 3: 5/23 Toya</name>
-      <Placemark><name>大沼國定公園</name><Point><coordinates>140.6710,42.0121</coordinates></Point></Placemark>
-      <Placemark><name>洞爺觀光飯店</name><Point><coordinates>140.8167,42.5500</coordinates></Point></Placemark>
-      <Placemark><name>昭和新山 &amp; 有珠山纜車</name><Point><coordinates>140.8639,42.5039</coordinates></Point></Placemark>
-      <Placemark><name>賽露展望台 (Silo)</name><Point><coordinates>140.7500,42.5917</coordinates></Point></Placemark>
-      <Placemark>
-        <name>Day 3 Route</name>
-        <styleUrl>#route_style</styleUrl>
-        <LineString><coordinates>140.7275,41.7735 140.6710,42.0121 140.8167,42.5500 140.8639,42.5039 140.7500,42.5917 140.8167,42.5500</coordinates></LineString>
-      </Placemark>
+    <Folder><name>Day 3</name>
+      <Placemark><name>函館站前店</name><Point><coordinates>140.725847,41.770603,0</coordinates></Point></Placemark>
+      <Placemark><name>大沼國定公園</name><Point><coordinates>140.671,42.0121,0</coordinates></Point></Placemark>
+      <Placemark><name>洞爺觀光飯店</name><Point><coordinates>140.8216,42.5498,0</coordinates></Point></Placemark>
+      <Placemark><name>昭和新山</name><Point><coordinates>140.8644,42.5425,0</coordinates></Point></Placemark>
+      <Placemark><name>有珠山纜車</name><Point><coordinates>140.8594,42.5405,0</coordinates></Point></Placemark>
+      <Placemark><name>賽露展望台 (サイロ展望台)</name><Point><coordinates>140.785,42.615,0</coordinates></Point></Placemark>
+      <Placemark><name>洞爺湖花火大會</name><Point><coordinates>140.8216,42.5498,0</coordinates></Point></Placemark>
     </Folder>
-
-    <!-- Day 4 -->
-    <Folder>
-      <name>Day 4: 5/24 Noboribetsu &amp; Sapporo</name>
-      <Placemark><name>登別尼克斯海洋公園</name><Point><coordinates>141.1861,42.4528</coordinates></Point></Placemark>
-      <Placemark><name>SAPPORO HOTEL by GRANBELL</name><Point><coordinates>141.3544,43.0686</coordinates></Point></Placemark>
-      <Placemark><name>奧芝商店 駅前創成店</name><Point><coordinates>141.3500,43.0667</coordinates></Point></Placemark>
-      <Placemark>
-        <name>Day 4 Route</name>
-        <styleUrl>#route_style</styleUrl>
-        <LineString><coordinates>140.8167,42.5500 141.1861,42.4528 141.3544,43.0686 141.3500,43.0667 141.3544,43.0686</coordinates></LineString>
-      </Placemark>
+    <Folder><name>Day 4</name>
+      <Placemark><name>登別尼克斯海洋公園</name><Point><coordinates>141.1822,42.455,0</coordinates></Point></Placemark>
+      <Placemark><name>札幌站前店</name><Point><coordinates>141.3574,43.068435,0</coordinates></Point></Placemark>
+      <Placemark><name>札幌格蘭貝爾飯店</name><Point><coordinates>141.3583,43.0694,0</coordinates></Point></Placemark>
+      <Placemark><name>奧芝商店 駅前創成店</name><Point><coordinates>141.3531,43.0675,0</coordinates></Point></Placemark>
+      <Placemark><name>狸小路商店街</name><Point><coordinates>141.3514,43.0575,0</coordinates></Point></Placemark>
+      <Placemark><name>大通公園</name><Point><coordinates>141.352,43.0606,0</coordinates></Point></Placemark>
     </Folder>
-
-    <!-- Day 5 -->
-    <Folder>
-      <name>Day 5: 5/25 Sapporo &amp; Otaru</name>
-      <Placemark><name>札幌諏訪神社</name><Point><coordinates>141.3556,43.0778</coordinates></Point></Placemark>
-      <Placemark><name>南小樽站</name><Point><coordinates>141.0069,43.1875</coordinates></Point></Placemark>
-      <Placemark><name>小樽音樂盒堂</name><Point><coordinates>141.0078,43.1903</coordinates></Point></Placemark>
-      <Placemark><name>小樽運河</name><Point><coordinates>141.0014,43.1989</coordinates></Point></Placemark>
-      <Placemark><name>天狗山纜車</name><Point><coordinates>140.9833,43.1778</coordinates></Point></Placemark>
-      <Placemark>
-        <name>Day 5 Route</name>
-        <styleUrl>#route_style</styleUrl>
-        <LineString><coordinates>141.3544,43.0686 141.3556,43.0778 141.0069,43.1875 141.0078,43.1903 141.0014,43.1989 140.9833,43.1778 141.3544,43.0686</coordinates></LineString>
-      </Placemark>
+    <Folder><name>Day 5</name>
+      <Placemark><name>諏訪神社</name><Point><coordinates>141.3541,43.0759,0</coordinates></Point></Placemark>
+      <Placemark><name>札幌車站</name><Point><coordinates>141.3508,43.0686,0</coordinates></Point></Placemark>
+      <Placemark><name>南小樽</name><Point><coordinates>141.0073,43.1869,0</coordinates></Point></Placemark>
+      <Placemark><name>小樽音樂盒堂</name><Point><coordinates>141.0078,43.1906,0</coordinates></Point></Placemark>
+      <Placemark><name>堺町通</name><Point><coordinates>141.0058,43.1911,0</coordinates></Point></Placemark>
+      <Placemark><name>小樽運河</name><Point><coordinates>141.0017,43.1999,0</coordinates></Point></Placemark>
+      <Placemark><name>天狗山纜車</name><Point><coordinates>140.9792,43.1792,0</coordinates></Point></Placemark>
     </Folder>
-
-    <!-- Day 6 -->
-    <Folder>
-      <name>Day 6: 5/26 Departure</name>
-      <Placemark><name>新千歲機場 (CTS)</name><Point><coordinates>141.6922,42.7750</coordinates></Point></Placemark>
-      <Placemark>
-        <name>Day 6 Route</name>
-        <styleUrl>#route_style</styleUrl>
-        <LineString><coordinates>141.3544,43.0686 141.6922,42.7750</coordinates></LineString>
-      </Placemark>
+    <Folder><name>Day 6</name>
+      <Placemark><name>新千歲機場</name><Point><coordinates>141.6925,42.7753,0</coordinates></Point></Placemark>
     </Folder>
-  </Document>
-</kml>
+  </Document></kml>
